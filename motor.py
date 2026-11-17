@@ -1,10 +1,10 @@
-"""Motor matemático do Relation Quest — Grupo 08."""
+
 
 import ast
 
 
 def ler_entrada(texto_conjunto, texto_relacao):
-    """Transforma o que foi digitado em dois conjuntos Python."""
+   
     try:
         valores_a = ast.literal_eval(texto_conjunto.strip())
         valores_r = ast.literal_eval(texto_relacao.strip())
