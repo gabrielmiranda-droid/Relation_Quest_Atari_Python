@@ -1,9 +1,8 @@
-"""Tela de fliperama do Relation Quest. Não exige instalações extras."""
 
 import tkinter as tk
 from motor import ler_entrada, verificar
 
-# Paleta inspirada em monitores de fliperama antigos.
+
 FUNDO = "#101019"
 TELA = "#06140D"
 OURO = "#F6C958"
